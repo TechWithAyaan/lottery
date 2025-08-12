@@ -12,7 +12,9 @@ var lot10 = "7B934-8225";
 function lot(){
     var user = prompt("Enter Your Lottery Ticket Number")
     if(user == lot1){
-        alert("You Win Grand Prize 100! Rupees")
+        // alert("You Win Grand Prize 100! Rupees")
+        alert("7 Crore 😎😎")
+        alert("Ab to Zindagi Set hai 😎😎")
 
     }else if (user == lot2){
         alert("You Win Grand Prize 100! Rupees")
@@ -51,3 +53,27 @@ function lot(){
         alert("Invalid Ticket Number")
 }
 }
+// login page js 
+    function closeEye(){
+        document.getElementsByClassName("cl")
+        [0].style.display = "none"
+        document.getElementsByClassName("op")
+        [0].style.display = "inline"
+        document.getElementById("pass").type = "text"
+    }
+    function openEye(){
+            document.getElementsByClassName("cl")
+        [0].style.display = "inline"
+            document.getElementsByClassName("op")
+        [0].style.display = "none"
+        document.getElementById("pass").type = "password"
+    }
+//    let maintain = document.getElementsByClassName("Password")[0].value;
+
+// if (maintain == "1234") {
+//     location.href = "index.html"; // redirect to page
+// } else {
+//     alert("Sahi Pass Dal");
+// }
+
+ 
